@@ -1,7 +1,7 @@
-## create a matrix, create a free variable, set the function y for create a value in the cahe memory, return x value 
-## functions do
+## create a matrix, create a free variable, set the function for "y", create a value in the cache memory, return x value, set the inverse function
+## function inverse the matrix 
 
-## Write a short comment describing this function
+## inverse the matrix x 
 
 makeCacheMatrix <- function(x = matrix()) {
   mi <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## if the value mi is not null go to the cache and get the value, in this case "mi" which is the solve of the matrix "x"
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
